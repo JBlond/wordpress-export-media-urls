@@ -26,3 +26,8 @@ foreach ($export as $row){
     echo 'curl -LO ' . $row . "\n";
 }
 ```
+
+## Requirements
+
+- PHP >= 7.4
+- PHP extension simpleXML
