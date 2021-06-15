@@ -23,7 +23,6 @@
         "classmap-authoritative": true
     },
     "scripts": {
-        "phpunit": "phpunit",
         "php_src": "phpcs --standard=phpcs.xml -s -p --colors ./src/"
     },
     "scripts-descriptions": {
