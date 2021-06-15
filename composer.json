@@ -1,0 +1,33 @@
+{
+    "name": "jblond/wordpress-export-media-urls",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mario Brandt",
+            "email": "leet31337@web.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-simplexml": "*",
+        "twig/twig": ">=3.0.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jblond\\export\\": "src"
+        }
+    },
+    "config": {
+        "classmap-authoritative": true
+    },
+    "scripts": {
+        "phpunit": "phpunit",
+        "php_src": "phpcs --standard=phpcs.xml -s -p --colors ./src/"
+    },
+    "scripts-descriptions": {
+        "php_src": "Run code sniffer on lib directory"
+    }
+}
