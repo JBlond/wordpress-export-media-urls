@@ -45,7 +45,7 @@ class WordpressXmlMediaExporter
     }
 
     /**
-     * concerts a simplexml object to an PHP array
+     * converts a simplexml object to an PHP array
      * @param $xml
      * @return array|string array
      */
