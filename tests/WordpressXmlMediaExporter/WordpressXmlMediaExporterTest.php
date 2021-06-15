@@ -19,7 +19,7 @@ class WordpressXmlMediaExporterTest extends TestCase
     public function testSetFile()
     {
         $this->expectException(Exception::class);
-        $exporter = new WordpressXmlMediaExporter;
+        $exporter = new WordpressXmlMediaExporter();
         $exporter->setFile('../WordPress-media-export.xml');
     }
 
@@ -28,12 +28,23 @@ class WordpressXmlMediaExporterTest extends TestCase
      */
     public function testGetData()
     {
-        $exporter = new WordpressXmlMediaExporter;
+        $exporter = new WordpressXmlMediaExporter();
         $exporter->setFile(__DIR__ . '/WordPress-media-export.xml');
         $export = $exporter->getData();
         require __DIR__ . '/testArray.php';
         $this->assertEquals($array, $export);
     }
 
-
+    /**
+     * @throws Exception
+     */
+    public function testGetDataUrl()
+    {
+        $exporter = new WordpressXmlMediaExporter();
+        $exporter->setFile(__DIR__ . '/WordPress-media-export.xml');
+        $export = $exporter->getData();
+        foreach ($export as $row) {
+            $this->assertMatchesRegularExpression('/^(http:\/\/|https:\/\/)(.*)$/', $row);
+        }
+    }
 }
