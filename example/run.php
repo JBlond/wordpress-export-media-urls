@@ -4,7 +4,11 @@ use jblond\export\WordpressXmlMediaExporter;
 
 require '../vendor/autoload.php';
 
-$exporter = new WordpressXmlMediaExporter;
-$exporter->setFile('WordPress-media-export.xml');
+$exporter = new WordpressXmlMediaExporter();
+try {
+    $exporter->setFile('WordPress-media-export.xml');
+} catch (Exception $exception) {
+    echo $exception->getMessage();
+}
 $export = $exporter->getData();
 print_r($export);
