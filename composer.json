@@ -9,8 +9,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "ext-simplexml": "*",
-        "twig/twig": ">=3.0.0"
+        "ext-simplexml": "*"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "*"
