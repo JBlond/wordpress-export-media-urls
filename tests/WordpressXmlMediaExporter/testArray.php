@@ -1,0 +1,23 @@
+<?php
+$array = array(
+    0 => 'https://example.com/wp-content/uploads/2010/07/ssh_1.png',
+    1 => 'https://example.com/wp-content/uploads/2010/07/ssh_2.png',
+    2 => 'https://example.com/wp-content/uploads/2010/07/ssh_3.png',
+    3 => 'https://example.com/wp-content/uploads/2010/07/ssh_4.png',
+    4 => 'https://example.com/wp-content/uploads/2010/10/my_animal.png',
+    5 => 'https://example.com/wp-content/uploads/2010/11/web-designers-vs-developers.png',
+    6 => 'https://example.com/wp-content/uploads/2010/11/IPv6.diff',
+    7 => 'https://example.com/wp-content/uploads/2010/11/fcgid_2361.diff',
+    8 => 'https://example.com/wp-content/uploads/2010/11/htaccess.php_.txt',
+    9 => 'https://example.com/wp-content/uploads/2010/12/spam_likes_christmas.png',
+    10 => 'https://example.com/wp-content/uploads/2011/11/graceful_restart_fix.diff',
+    11 => 'https://example.com/wp-content/uploads/2013/01/jquery.zoom_.png',
+    12 => 'https://example.com/wp-content/uploads/2013/12/ssl_test_lab_result.png',
+    13 => 'https://example.com/wp-content/uploads/2014/07/virtualbox_not_identified_network.png',
+    14 => 'https://example.com/wp-content/uploads/2016/03/mario.png',
+    15 => 'https://example.com/wp-content/uploads/2020/04/dns_raspi_telegraf.png',
+    16 => 'https://example.com/wp-content/uploads/2020/04/raspberry-pi-pins.png',
+    17 => 'https://example.com/wp-content/uploads/2020/04/temperature.png',
+    18 => 'https://example.com/wp-content/uploads/2020/04/bme280-back.png',
+    19 => 'https://example.com/wp-content/uploads/2020/04/bme280-front.png',
+);
