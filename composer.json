@@ -1,6 +1,7 @@
 {
     "name": "jblond/wordpress-export-media-urls",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mario Brandt",
